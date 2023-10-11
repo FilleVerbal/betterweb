@@ -1,0 +1,88 @@
+header{
+    background-color: #00adb5;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    /* position: absolute; */
+}
+.logoimg{
+    width: 35vw;
+}
+.nomnom{
+    position: absolute;
+    z-index: 1;    
+    border: none;
+    cursor: pointer;
+    top: 2em;
+    right: 2em;
+}
+.menu{
+    position: absolute;
+    list-style: none;
+    z-index: 2;
+    top: 0.5em;
+    left: 0;
+    right: 1.5em;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(-100%);
+    transition: transform 0.4s ease-in-out;
+}
+.close{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    right: 10px;
+    background-color: #00adb5;
+}
+
+.menu:target{
+    transform: translateY(0);
+}
+li{
+    width: 135px;
+    height: 1em;
+}
+a{
+    text-decoration: none;
+}
+li:first-child{
+    position: fixed;
+    top: 3em;
+    right: 3em;
+}
+li:nth-child(2){
+    position: fixed;
+    top: 5em;
+    right: 3em;
+}
+li:nth-child(3){
+    position: fixed;
+    top: 7em;
+    right: 3em;
+}
+li:nth-child(4){
+    position: fixed;
+    top: 9em;
+    right: 3em;
+}
+li > a{
+    color: rgb(123, 41, 17);
+    background-color: aquamarine;
+}
+.buytickets{
+    grid-row: 2;
+    grid-column: 2;
+    color: rgb(247, 244, 244);
+    border: 2px solid white;
+    background-color: rgb(244, 203, 23);
+    height: 3em;
+    width: 10em;
+    justify-self: center;
+    text-align: center;
+    border-radius: 10px;
+}
