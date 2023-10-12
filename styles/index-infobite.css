@@ -1,0 +1,33 @@
+.infobite{
+    background-image: url(firstplug-refined.png);
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.infobitehead{
+    font-size: 2em;
+}
+.infobitetext{
+    font-size: 1.2em;
+    padding: 2em;
+    text-align: center;
+}
+.readmorelink{
+    display: flex;
+    color: rgb(247, 244, 244);
+    border: 2px solid white;
+    background-color: rgb(244, 203, 23);
+    height: 3em;
+    width: 10em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.readmorebutton{
+    font-weight: bolder;
+}
