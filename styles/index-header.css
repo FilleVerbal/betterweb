@@ -108,6 +108,7 @@ li > a:focus{
     align-items: center;
     border-radius: 10px;
 }
-.ticketbutton{
-    font-weight: bold;
+.ticketbutton:hover,
+.ticketbutton:focus{
+    font-weight: bolder;
 }

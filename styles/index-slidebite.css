@@ -1,0 +1,18 @@
+.slidebite{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+}
+.lecturelink{
+    display: flex;
+    color: rgb(247, 244, 244);
+    border: 2px solid white;
+    background-color: rgb(244, 203, 23);
+    height: 3em;
+    width: 10em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    flex-row: 4 / span 2;
+}

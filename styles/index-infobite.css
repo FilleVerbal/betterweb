@@ -28,6 +28,7 @@
     align-items: center;
     border-radius: 10px;
 }
-.readmorebutton{
+.readmorebutton:hover,
+.readmorebutton:focus{
     font-weight: bolder;
 }
