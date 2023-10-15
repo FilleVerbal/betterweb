@@ -1,0 +1,10 @@
+.footsy{
+    background-color: #00adb5;
+    margin-bottom: 0;
+}
+.footsycontainer{
+    display: flex;
+}
+.öppettider{
+    list-style: none;
+}

@@ -51,7 +51,7 @@ header{
     transform: translateY(0);
     visibility: visible;
 }
-li{
+.menu > li{
     display: flex;
     width: 10em;
     height: 1.5em;
@@ -66,27 +66,27 @@ li{
 a{
     text-decoration: none;
 }
-li:first-child{
+.indexnomnom1{
     position: fixed;
     top: 3em;
     right: var(--burgerright);
 }
-li:nth-child(2){
+.indexnomnom2{
     position: fixed;
     top: 5em;
     right: var(--burgerright);
 }
-li:nth-child(3){
+.indexnomnom3{
     position: fixed;
     top: 7em;
     right: var(--burgerright);
 }
-li:nth-child(4){
+.indexnomnom4{
     position: fixed;
     top: 9em;
     right: var(--burgerright);
 }
-li > a{
+ li > a{
     color: var(--textcolor);
     transition: ease-in 0.3s;
 }

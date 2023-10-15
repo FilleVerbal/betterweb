@@ -11,15 +11,17 @@
     <link rel="stylesheet" type="text/css" href="styles/firstbite.css" />
     <link rel="stylesheet" type="text/css" href="styles/index-infobite.css" />
     <link rel="stylesheet" type="text/css" href="styles/index-slidebite.css" />
+    <link rel="stylesheet" type="text/css" href="styles/index-letter.css" />
+    <link rel="stylesheet" type="text/css" href="styles/index-footer.css"
 </head>
 <body>
-    <header>
+    <header class="huvud">
         <img class="logoimg" src="styles/logo-refined-again.png" alt="bättre web logo" />
         <ul class="menu" id="menu">
-            <li> <a href="readmoreinfo.html" > Om Bättre Web </a> </li>
-            <li> <a href="lecture.html"> Föreläsningar </a> </li>
-            <li> <a href="morethan.html"> Mer än föreläsningar </a> </li>
-            <li> <a href="buytickets.html"> Biljetter </a> </li>
+            <li class="indexnomnom1"> <a href="readmoreinfo.html" > Om Bättre Web </a> </li>
+            <li class="indexnomnom2"> <a href="lecture.html"> Föreläsningar </a> </li>
+            <li class="indexnomnom3"> <a href="morethan.html"> Mer än föreläsningar </a> </li>
+            <li class="indexnomnom4"> <a href="buytickets.html"> Biljetter </a> </li>
             <a class="close" href="#">
                 <span class="material-icons">
                     close
@@ -80,8 +82,39 @@
     </section>
 
     <section class="letter">
+        <h2 class="letterhead"> Skriv upp dig för att hålla dig uppdaterad! </h2>
+        <div class="letterformcontainer">
+        <form class="newsletter">
+            <label for="fname"> Namn </label><br>
+            <input type="text" id="fname" name="fname">
+            <p class="warningfname">Du måste fylla i ett namn!</p><br>
+            <label for="email"> E-mail </label><br>
+            <input type="email" id="email" name="email">
+            <p class="warningemail">Du måste fylla i en giltlig e-mail!</p>
+        </form>
+        </div>
 
     </section>
+    <footer class="footsy"> 
+        <div class="footsycontainer">
+            <div>
+                <img class="logoimg" src="styles/logo-refined-again.png" alt="bättre web logo" />
+                <ul class="öppettider">
+                    <li> Fredag 20/10 10:00-20:00 </li>
+                    <li> Lördag 21/10 10:00-20:00 </li>
+                    <li> Söndag 22/10 10:00-20:00 </li>
+                </ul>
+            </div>
+            <div>
+
+            </div>
+            <div>
+                <h2 class="adress"> Svenska Mässan Gothia Towers</h2>
+                <h2 class="adress"> Mässans Gata/Korsvägen</h2>
+                <h2 class="adress"> 412 94 Göteborg</h2>
+            </div>
+
+    </footer>
     
 </body>
 </html>
