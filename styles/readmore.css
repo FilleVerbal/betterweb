@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+.information,
+.wrap{
+    text-align: center;
+    justify-content: center;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.infobitehead{
+    font-size: 2em;
+}
+.infobitetext{
+    font-size: 1.2em;
+    padding: auto 2em;
+    text-align: center;
+}
+.program > li{
+    margin-bottom: 1em;
+}
+.finalplug{
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+.wrap{
+    background-image: url(firstplug-refined.png);
+}
+.nomargin{
+    margin-bottom: 0;
+}
