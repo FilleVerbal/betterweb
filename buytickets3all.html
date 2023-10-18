@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +8,7 @@
       rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles/index-header.css" />
     <link rel="stylesheet" type="text/css" href="styles/buytickets.css" />
+    <link rel="stylesheet" type="text/css" href="styles/index-footer.css" />
 </head>
 <body>
     <header class="huvud">
@@ -35,6 +36,73 @@
         </a>
         
     </header>
-    
+    <section class="form3all">
+        <h2 class="formrub"> Fyll i formuläret tack. </h2>
+        <div class="formcontainer">
+            <form class="buy3all" action="" method="get" >
+                <fieldset>
+                    <legend> Val av mat </legend>
+                    <div>
+                        <input type="radio" id="Vegansk" name="mat" value="Vegansk" />
+                        <label for="Vegansk" > Vegansk </label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Fisk" name="mat" value="Fisk" />
+                        <label for="Fisk"> Fisk </label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Kött" name="mat" value="Kött" />
+                        <label for="Kött"> Kött </label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Fågel" name="mat" value="Fågel" />
+                        <label for="Fågel"> Fågel </label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Kockens-val" name="mat" value="Kockens-val" checked />
+                        <label for="Kockens-val"> Kockens val </label>
+                    </div>
+                </fieldset>
+                <label for="allergier"> Anmäl allergier här tack </label>
+                <input class="ally" type="text" id="allergier" placeholder="Allergier" />
+                <label for="fnamn"> Förnamn </label>
+                <input type="text" id="fnamn" placeholder="Axel" required />
+                <p class="warning"> Du måste fylla i ett namn </p>
+                <label for="enamn"> Efternamn </label>
+                <input type="text" id="enamn" placeholder="Axelsson" required />
+                <p class="warning"> Du måste fylla i ett efternamn </p>
+                <label for="adress"> Adress </label>
+                <input type="text" id="adress" placeholder="Bro 10, 11000 Stockholm" minlength="10" required />
+                <p class="warning"> Du måste fylla i en riktig adress </p>
+                <label for="email"> E-post </label>
+                <input type="email" id="email" placeholder="betterweb@betterweb.com" required />
+                <p class="warning"> Du måste fylla i en giltlig e-post </p>
+
+            </form>
+        </div>
+    </section>
+    <footer class="footsy"> 
+        <div class="footsycontainer">
+            <div>
+                <a href="index.html">
+                <img class="logoimg" src="styles/logo-refined-again.png" alt="Klicka till huvudsidan" />
+                </a>
+                <ul class="öppettider">
+                    <li> Fredag 20/10 10:00-20:00 </li>
+                    <li> Lördag 21/10 10:00-20:00 </li>
+                    <li> Söndag 22/10 10:00-20:00 </li>
+                </ul>
+            </div>
+            <div>
+
+            </div>
+            <div>
+                <h2 class="adress"> Svenska Mässan Gothia Towers</h2>
+                <h2 class="adress"> Mässans Gata/Korsvägen</h2>
+                <h2 class="adress"> 412 94 Göteborg</h2>
+            </div>
+        </div>
+
+    </footer>
 </body>
 </html>
