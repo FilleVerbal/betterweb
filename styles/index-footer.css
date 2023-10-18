@@ -3,6 +3,7 @@
 }
 .footsycontainer{
     display: flex;
+    align-items: center;
 }
 .öppettider{
     list-style: none;

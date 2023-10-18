@@ -15,6 +15,7 @@ body{
     display: grid;
     row-gap: 5em;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
 }
 .lecturecontainer{
     grid-template-rows: repeat(3, 1fr);

@@ -1,0 +1,32 @@
+.foodie,
+.annat{
+    text-align: center;
+    justify-content: center;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pics{
+    width: 25vw;
+    border-radius: 100em;
+    border: 0.5em solid #00adb5;
+}
+.fcontainer,
+.annatcontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+.fcontainer{
+    grid-template-rows: auto auto;
+}
+.annatcontainer{
+    grid-template-rows: repeat(3, 1fr);
+}
+.ftextc{
+    grid-row: span 2;
+}
+.atextc{
+    grid-row: span 3;
+}

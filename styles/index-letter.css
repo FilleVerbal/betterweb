@@ -1,6 +1,11 @@
 .letterformcontainer{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.newsletter{
+    display: flex;
+    flex-direction: column;
 }
 .letterhead{
     font-weight: bold;
@@ -9,6 +14,7 @@
 .warningfname,
 .warningemail{
     visibility: hidden;
+    margin: 0;
 }
 input:invalid{
     border: 5px solid red;
@@ -16,7 +22,9 @@ input:invalid{
 input:invalid + .warningfname,
 input:invalid + .warningemail{
     visibility: visible;
-    margin: 0;
     color: rgb(192, 61, 61);
     font-weight: bold;
+}
+form input{
+    width: 20em;
 }
