@@ -41,6 +41,21 @@
         <div class="formcontainer">
             <form class="buy3all" action="" method="get" >
                 <fieldset>
+                    <legend> Välj vilken dag </legend>
+                    <div>
+                        <input type="radio" id="fredag" name="dag" value="fredag" checked/>
+                        <label for="fredag" > Fredag </label>
+                    </div>
+                    <div>
+                        <input type="radio" id="lördag" name="dag" value="lördag" disabled />
+                        <label for="lördag" disabled> Lördag (slutsåld) </label>
+                    </div>
+                    <div>
+                        <input type="radio" id="söndag" name="dag" value="söndag" />
+                        <label for="söndag" > Söndag </label>
+                    </div>
+                </fieldset>
+                <fieldset>
                     <legend> Val av mat </legend>
                     <div>
                         <input type="radio" id="Vegansk" name="mat" value="Vegansk" />

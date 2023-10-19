@@ -28,3 +28,9 @@ input:invalid + .warningemail{
 form input{
     width: 20em;
 }
+.knapp{
+    border-radius: 5px;
+    background-color: #E3B1E2;
+    width: 10em;
+    align-self: center;
+}

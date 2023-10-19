@@ -47,9 +47,16 @@ input:invalid{
 .warning{
     visibility: hidden;
     margin: 0;
+    margin-bottom: 2em;
 }
 input:invalid + .warning{
     visibility: visible;
     color: rgb(192, 61, 61);
     font-weight: bold;
+}
+.knapp{
+    border-radius: 5px;
+    background-color: #E3B1E2;
+    width: 10em;
+    align-self: center;
 }
