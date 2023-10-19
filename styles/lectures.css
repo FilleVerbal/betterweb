@@ -28,3 +28,12 @@ body{
     border-radius: 100em;
     border: 0.5em solid #00adb5;
 }
+.lectureheader{
+    font-size: 2em;
+}
+.lecturerub{
+    font-size: 1.5em;
+}
+.lectureinfo{
+    font-size: 1.2em;
+}

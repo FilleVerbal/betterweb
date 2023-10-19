@@ -1,3 +1,15 @@
+.slidebiteh,
+.morethanh{
+    font-size: 2em;
+}
+.slidebitehl,
+.finalh{
+    font-size: 1.5em;
+}
+.slidebitelecture,
+.morethantext{
+    font-size: 1.2em;
+}
 .slidebite{
     display: flex;
     flex-direction: column;
