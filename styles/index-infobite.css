@@ -29,7 +29,11 @@
     align-items: center;
     border-radius: 10px;
 }
+.readmorebutton{
+    transition: all 0.5s ease-in;
+}
 .readmorebutton:hover,
 .readmorebutton:focus{
     font-weight: bolder;
+    font-size: 110%;
 }

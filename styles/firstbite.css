@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Lexend&family=Raleway&display=swap');
-
 .firstbite {
     font-size: 1.5em;
     text-align: center;
@@ -22,13 +20,4 @@
     text-align: center;
     align-items: center;
     border-radius: 10px;
-}
-.firstbite,
-.infobite:not(.readmorebutton),
-.slidebite:not(.lecturebutton),
-.morethan:not(.readmorebutton),
-.finalplug:not(.ticketbutton),
-.letter,
-.footsy{
-    font-family: 'Lexend', sans-serif;
 }

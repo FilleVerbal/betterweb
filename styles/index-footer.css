@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Lexend&family=Raleway&display=swap');
 .footsy{
     background-color: #00adb5;
 }
@@ -21,4 +22,7 @@
 }
 .adress{
     font-size: 1em;
+}
+*{
+    font-family: 'Lexend', sans-serif;
 }
