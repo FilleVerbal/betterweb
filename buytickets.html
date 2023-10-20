@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Köp biljetter</title>
+    <title>Köp 3-dagarspass ink allt </title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles/index-header.css" />
@@ -36,39 +36,67 @@
         </a>
         
     </header>
-    <section class="paketen">
-        <h2 class="paketrub"> Välj bland våra olika paketerbjudanden</h2>
-        <h4 class="minirub"> 3-dagar ink. allt.</h4>
-        <p class="paketinfo"> I detta paket ingår ett 3-dagspas och mat ink. måltidsdryck som beställs 
-            på plats.
-        </p>
-        <a class="buypack" href="buytickets3all.html">
-            <div class="packbutton"> <p> Köp Nu </p> </div>
-        </a>
-        <h4 class="paketrub"> 3-dagar </h4>
-        <p class="paketinfo"> I detta paket ingår ett 3-dagarspass utan mat, mat går dock att beställa
-            på plats om så önskas då till ett något högre pris.
-        </p>
-        <a class="buypack" href="buytickets3.html">
-            <div class="packbutton"> <p> Köp Nu </p> </div>
-        </a>
-        <h4 class="paketrub"> Dagspass ink. allt. </h4>
-        <p class="paketinfo"> I detta paket ingår ett dagspass och mat ink. måltidsdryck som beställs
-            på plats.
-        </p>
-        <a class="buypack" href="buytickets1all.html">
-            <div class="packbutton"> <p> Köp Nu </p> </div>
-        </a>
-        <h4 class="paketrub"> Dagspass </h4>
-        <p class="paketinfo"> I detta paket ingår ett dagspass utan mat, mat går dock att beställa
-            på plats om så önskas då till ett något högre pris.
-        </p>
-        <a class="buypack" href="buytickets1.html">
-            <div class="packbutton"> <p> Köp Nu </p> </div>
-        </a>
+    <section class="form3all">
+        <h2 class="formrub"> Fyll i formuläret tack. </h2>
+        <div class="formcontainer">
+            <form class="buy3all" action="" method="get" >
+                <fieldset>
+                    <legend> Välj vilka dagar tack. </legend>
+                    <div>
+                        <input type="checkbox" id="fredag" name="fredag" >
+                        <label for="fredag"> Fredag </label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="lördag" name="lördag" >
+                        <label for="lördag"> Lördag </label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="söndag" name="söndag" >
+                        <label for=" söndag"> Söndag </label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend> Val av mat </legend>
+                    <div>
+                        <input type="radio" id="Vegansk" name="mat" value="Vegansk" />
+                        <label for="Vegansk" > Vegansk </label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Fisk" name="mat" value="Fisk" />
+                        <label for="Fisk"> Fisk </label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Kött" name="mat" value="Kött" />
+                        <label for="Kött"> Kött </label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Fågel" name="mat" value="Fågel" />
+                        <label for="Fågel"> Fågel </label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Kockens-val" name="mat" value="Kockens-val" checked />
+                        <label for="Kockens-val"> Kockens val </label>
+                    </div>
+                </fieldset>
+                <label for="allergier"> Anmäl allergier här tack </label>
+                <input class="ally" type="text" id="allergier" placeholder="Allergier" />
+                <label for="fnamn"> Förnamn </label>
+                <input type="text" id="fnamn" placeholder="Axel" required />
+                <p class="warning"> Du måste fylla i ett namn </p>
+                <label for="enamn"> Efternamn </label>
+                <input type="text" id="enamn" placeholder="Axelsson" required />
+                <p class="warning"> Du måste fylla i ett efternamn </p>
+                <label for="adress"> Adress </label>
+                <input type="text" id="adress" placeholder="Bro 10, 11000 Stockholm" minlength="10" required />
+                <p class="warning"> Du måste fylla i en riktig adress </p>
+                <label for="email"> E-post </label>
+                <input type="email" id="email" placeholder="betterweb@betterweb.com" required />
+                <p class="warning"> Du måste fylla i en giltlig e-post </p>
+                <button class="knapp" type="submit"> Skicka </button>
 
+            </form>
+        </div>
     </section>
-
     <footer class="footsy"> 
         <div class="footsycontainer">
             <div>
@@ -92,6 +120,5 @@
         </div>
 
     </footer>
-    
 </body>
 </html>

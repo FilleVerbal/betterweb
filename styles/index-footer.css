@@ -4,7 +4,21 @@
 .footsycontainer{
     display: flex;
     align-items: center;
+    height: 10em;
+    overflow: hidden;
 }
 .öppettider{
     list-style: none;
+    font-size: 1.2em;
+}
+.leftfoot{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.logoimgf{
+    width: 35%;
+}
+.adress{
+    font-size: 1em;
 }

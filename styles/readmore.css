@@ -28,6 +28,7 @@ body{
 }
 .wrap{
     background-image: url(firstplug-refined.png);
+    background-size: cover;
 }
 .nomargin{
     margin-bottom: 0;
