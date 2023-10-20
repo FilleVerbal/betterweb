@@ -52,7 +52,7 @@
                     </div>
                     <div>
                         <input type="checkbox" id="söndag" name="söndag" >
-                        <label for=" söndag"> Söndag </label>
+                        <label for="söndag"> Söndag </label>
                     </div>
                 </fieldset>
                 <fieldset>
@@ -92,6 +92,17 @@
                 <label for="email"> E-post </label>
                 <input type="email" id="email" placeholder="betterweb@betterweb.com" required />
                 <p class="warning"> Du måste fylla i en giltlig e-post </p>
+                <fieldset>
+                    <legend> Vill du ha vårat nyhetsbrev? </legend>
+                    <div>
+                        <input type="radio" id="ja" name="nyhetsbrev" value="ja" />
+                        <label for="ja" > Ja tack! </label>
+                    </div>
+                    <div>
+                        <input type="radio" id="nej" name="nyhetsbrev" value="nej" checked />
+                        <label for="nej"> Nej tack! </label>
+                    </div>
+                </fieldset>
                 <button class="knapp" type="submit"> Skicka </button>
 
             </form>

@@ -122,3 +122,9 @@ li > a:focus{
     font-weight: bolder;
     font-size: 110%;
 }
+@media(max-width: 768px){
+    .buyhead{
+        grid-row: 2;
+        grid-column: 1;
+    }
+}

@@ -20,6 +20,9 @@
 input:invalid{
     border: 5px solid red;
 }
+input:valid{
+    border: 5px solid green;
+}
 input:invalid + .warningfname,
 input:invalid + .warningemail{
     visibility: visible;
@@ -35,4 +38,15 @@ form input{
     width: 10em;
     align-self: center;
     margin-top: 1em;
+    margin-bottom: 2em;
+    transition: all 0.5s ease-in;
+}
+.knapp:hover,
+.knapp:focus{
+    font-weight: bolder;
+}
+@media(max-width: 768px){
+    .letterhead{
+        padding: 0 2em;
+    }
 }

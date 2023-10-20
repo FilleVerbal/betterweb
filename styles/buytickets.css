@@ -45,6 +45,9 @@
 input:invalid{
     border: 5px solid rgb(255, 0, 0);
 }
+input:valid{
+    border: 5px solid green;
+}
 .warning{
     visibility: hidden;
     margin: 0;
@@ -60,4 +63,6 @@ input:invalid + .warning{
     background-color: #E3B1E2;
     width: 10em;
     align-self: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }

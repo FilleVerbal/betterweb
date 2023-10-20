@@ -63,3 +63,42 @@ body{
     align-items: center;
     border-radius: 10px;
 }
+@media(max-width: 768px){
+    .leftline,
+    .rightline{
+        display: none;
+    }
+    .lpic{
+        width: 75%;
+    }
+    .bigcontainer,
+    .lecturecontainer,
+    .lecturecontainer2{
+        grid-template-columns: 1fr;
+        row-gap: 0;
+    }
+    .lecturerub{
+        margin-top: 0;
+    }
+    .lifb{
+        margin-bottom: 6em;
+    }
+    .pxkrig{
+        grid-row: 1;
+    }
+    .fmagi{
+        grid-row: 5;
+    }
+    .comics{
+        grid-row: 1;
+    }
+    .respons{
+        grid-row: 5;
+    }
+    .a11y{
+        grid-row: 1;
+    }
+    .scifi{
+        grid-row: 5;
+    }
+}

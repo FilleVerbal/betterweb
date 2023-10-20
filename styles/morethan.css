@@ -57,3 +57,28 @@
     align-items: center;
     border-radius: 10px;
 }
+@media(max-width: 768px){
+    .fcontainer,
+    .annatcontainer{
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+    .blemken{
+        grid-row: 2;
+    }
+    .ftext,
+    .annattext{
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+    .foodie,
+    .annat{
+        padding: 0 2em;
+    }
+    .mt{
+        display: none;
+    }
+    .vilob{
+        margin-bottom: 1em;
+    }
+}

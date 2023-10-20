@@ -32,6 +32,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    margin-bottom: 1em;
 }
 .slidecontainer{
     display: grid;
@@ -65,4 +66,32 @@
 .lecturebutton:focus{
     font-weight: bolder;
     font-size: 110%;
+}
+.bottompad{
+    margin-bottom: 1em;
+}
+@media(max-width: 768px){
+    .slidecontainer{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        row-gap: 0;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .pxkrig{
+        grid-row: 1;
+    }
+    .a11y{
+        grid-row: 5;
+    }
+    .slidebitelecture{
+        margin-bottom: 6em;
+    }
+    .slidepic{
+        width: 70%;
+    }
+    .morethan,
+    .finalplug{
+        padding: 0 2em;
+    }
 }

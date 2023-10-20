@@ -38,3 +38,9 @@ body{
     padding-left: 15%;
     padding-right: 15%;
 }
+@media(max-width: 768px){
+    .information,
+    .wrap{
+        padding: 0 2em;
+    }
+}
